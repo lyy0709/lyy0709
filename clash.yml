@@ -1,0 +1,28 @@
+mode: global
+allow-lan: true
+log-level: info
+mixed-port: 7890
+external-controller: 0.0.0.0:9090
+external-controller-secret: clash
+dns:
+  ipv6: true
+  enabled: true
+  listen: 1053
+  use-hosts: true
+  default-nameserver:
+    - 223.5.5.5
+    - 223.6.6.6
+  nameserver:
+    - 114.114.114.114
+  fallback:
+    - 1.1.1.1
+    - 1.0.0.1
+proxies:
+  - name: hy2-tun
+    type: hysteria2
+    server: test.lyy0709.cn
+    port: 53
+    password: 4d32933a-aa60-946f-a43a-ee16a91504f0
+    skip-cert-verify: true
+proxy-groups: [ ]
+rules: [ ]
