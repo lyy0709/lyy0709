@@ -22,7 +22,7 @@ proxies:
     type: hysteria2
     server: test.lyy0709.cn
     port: 53
-    password: 4d32933a-aa60-946f-a43a-ee16a91504f0
+    password: 
     skip-cert-verify: true
 proxy-groups: [ ]
 rules: [ ]
