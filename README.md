@@ -1,80 +1,101 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=lyy0709&fontSize=36&fontColor=58a6ff&fontAlignY=35&desc=Developer%20·%20Open%20Source&descSize=14&descAlignY=55&descColor=8b949e&animation=fadeIn" width="100%" />
-</div>
+<h1 align="center">lyy0709</h1>
 
-```yaml
-name:       lyy0709
-role:       开发者
-location:   北京
-focus:      [ AI 工具与 Agent, 自动化运维, 全栈开发 ]
-hobby:      [ 开源项目, 折腾部署 ]
-```
+<p align="center">
+  <strong>把 AI 工具部署好，把重复工作自动化。</strong><br />
+  北京 · AI 工具 · 自动化 · 全栈开发
+</p>
 
-<br/>
+<p align="center">
+  <a href="#精选项目">精选项目</a> ·
+  <a href="#技术栈">技术栈</a> ·
+  <a href="#贡献记录">贡献记录</a>
+</p>
 
-## 📌 项目与工具
+## 精选项目
 
-> **[🤖 grok-share-server-deploy](https://github.com/lyy0709/grok-share-server-deploy)** — Grok 镜像部署方案，按模型可用次数自动切换账号 `Shell` [![Stars](https://img.shields.io/github/stars/lyy0709/grok-share-server-deploy?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/grok-share-server-deploy/stargazers)
->
-> **[⚡ codex-perf-patches](https://github.com/lyy0709/codex-perf-patches)** — 面向 Codex CLI 0.144.4 的非官方性能补丁，处理启动与 Windows 文件编辑卡顿 `Shell` [![Stars](https://img.shields.io/github/stars/lyy0709/codex-perf-patches?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/codex-perf-patches/stargazers)
->
-> **[🌐 hermes-agent-zh](https://github.com/lyy0709/hermes-agent-zh)** — Hermes Agent 中文翻译版，自动翻译、同步上游并构建发布 `Python` [![Stars](https://img.shields.io/github/stars/lyy0709/hermes-agent-zh?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/hermes-agent-zh/stargazers)
->
-> **[🔐 cockroachai-oauth](https://github.com/lyy0709/cockroachai-oauth)** — 对接 cockroachai 的第三方账户系统，仓库提供部署入口 `Shell` [![Stars](https://img.shields.io/github/stars/lyy0709/cockroachai-oauth?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/cockroachai-oauth/stargazers)
->
-> **[🧠 ContextWeaver](https://github.com/lyy0709/ContextWeaver)** — 基于 MCP、Tree-sitter 和向量搜索的代码上下文检索工具，Fork 自 [hsingjui/ContextWeaver](https://github.com/hsingjui/ContextWeaver) `TypeScript` [![Stars](https://img.shields.io/github/stars/lyy0709/ContextWeaver?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/ContextWeaver/stargazers)
->
-> **[📱 vmq-itchat](https://github.com/lyy0709/vmq-itchat)** — 对接 V 免签的微信挂机监控与 Webhook（已归档）`Python` [![Stars](https://img.shields.io/github/stars/lyy0709/vmq-itchat?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/vmq-itchat/stargazers)
->
-> **[📝 select_course](https://github.com/lyy0709/select_course)** — 中国石油大学（北京）油猴选课脚本 `JavaScript` [![Stars](https://img.shields.io/github/stars/lyy0709/select_course?style=flat-square&label=Stars&color=58a6ff)](https://github.com/lyy0709/select_course/stargazers)
+### [grok-share-server-deploy](https://github.com/lyy0709/grok-share-server-deploy)
 
-<br/>
+Grok 镜像部署方案，按模型可用次数自动切换账号。
 
-## 🛠 技术栈
+`Shell` · `Docker` &nbsp; [![grok-share-server-deploy Stars](https://img.shields.io/github/stars/lyy0709/grok-share-server-deploy?style=flat&label=Stars&color=58a6ff)](https://github.com/lyy0709/grok-share-server-deploy/stargazers)
 
-```
-语言        Shell · Python · Go · TypeScript · JavaScript · C++
-前端        Vue
-部署        Docker · Nginx · Linux · CI/CD
-数据库      MySQL · Redis · SQLite
-工具        Git · GitHub Actions · MCP · Tree-sitter · 油猴脚本
-```
+### [codex-perf-patches](https://github.com/lyy0709/codex-perf-patches)
 
-<br/>
+面向 Codex CLI 0.144.4 的非官方性能补丁，处理启动与 Windows 文件编辑卡顿。
 
-## 📊 统计
+`Shell` · `CLI` &nbsp; [![codex-perf-patches Stars](https://img.shields.io/github/stars/lyy0709/codex-perf-patches?style=flat&label=Stars&color=58a6ff)](https://github.com/lyy0709/codex-perf-patches/stargazers)
 
-<div align="center">
-  <img alt="lyy0709 的 GitHub 统计" src="https://github-stats-extended.vercel.app/api?username=lyy0709&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&border_radius=10&locale=cn&show=prs_merged,prs_merged_percentage" width="49%" />
-  <img alt="公开仓库的语言统计" src="https://github-stats-extended.vercel.app/api/top-langs/?username=lyy0709&layout=donut&theme=github_dark&hide_border=true&border_radius=10&langs_count=8&locale=cn" width="49%" />
-</div>
+### [hermes-agent-zh](https://github.com/lyy0709/hermes-agent-zh)
 
-<br/>
+Hermes Agent 中文翻译版，自动翻译、同步上游并构建发布。
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=lyy0709&theme=github-dark-blue&hide_border=true&border_radius=10&locale=zh_Hans" />
-</div>
+`Python` · `GitHub Actions` &nbsp; [![hermes-agent-zh Stars](https://img.shields.io/github/stars/lyy0709/hermes-agent-zh?style=flat&label=Stars&color=58a6ff)](https://github.com/lyy0709/hermes-agent-zh/stargazers)
 
-<br/>
+<details>
+<summary><strong>其他项目与工具</strong></summary>
 
-## 🐍 贡献贪吃蛇
+- **[cockroachai-oauth](https://github.com/lyy0709/cockroachai-oauth)** · `Shell`<br />
+  对接 cockroachai 的第三方账户系统，仓库提供部署入口。
+- **[ContextWeaver](https://github.com/lyy0709/ContextWeaver)** · `TypeScript` · Fork<br />
+  基于 MCP、Tree-sitter 和向量搜索的代码上下文检索工具，源自 [hsingjui/ContextWeaver](https://github.com/hsingjui/ContextWeaver)。
+- **[vmq-itchat](https://github.com/lyy0709/vmq-itchat)** · `Python` · 已归档<br />
+  对接 V 免签的微信挂机监控与 Webhook。
+- **[select_course](https://github.com/lyy0709/select_course)** · `JavaScript`<br />
+  中国石油大学（北京）油猴选课脚本。
 
-根据最近一年的 GitHub contributions（含私有贡献汇总）生成，每日自动更新；格子深浅对应贡献强度，支持明暗主题切换。动画不展示私有仓库名称或提交内容。
+</details>
 
-[![动画更新状态](https://github.com/lyy0709/lyy0709/actions/workflows/snake.yml/badge.svg)](https://github.com/lyy0709/lyy0709/actions/workflows/snake.yml)
+## 技术栈
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lyy0709/lyy0709/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lyy0709/lyy0709/output/github-snake.svg" />
-  <img alt="lyy0709 最近一年的 GitHub 贡献贪吃蛇动画" src="https://raw.githubusercontent.com/lyy0709/lyy0709/output/github-snake.svg" width="100%" />
-</picture>
-</div>
+<p>
+  <strong>语言与前端</strong><br />
+  <code>Python</code> <code>Go</code> <code>TypeScript</code> <code>JavaScript</code> <code>Shell</code> <code>C++</code> <code>Vue</code>
+</p>
+<p>
+  <strong>部署与数据</strong><br />
+  <code>Docker</code> <code>Linux</code> <code>Nginx</code> <code>CI/CD</code> <code>MySQL</code> <code>Redis</code> <code>SQLite</code>
+</p>
+<p>
+  <strong>开发与自动化</strong><br />
+  <code>Git</code> <code>GitHub Actions</code> <code>MCP</code> <code>Tree&#8209;sitter</code> <code>油猴脚本</code>
+</p>
 
-<br/>
+## GitHub 统计
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=lyy0709&style=flat-square&color=58a6ff&label=Profile+Views" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=lyy0709&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide=contribs&amp;show=prs_merged&amp;line_height=24&amp;card_width=400&amp;theme=github_dark&amp;border_radius=12&amp;locale=cn" />
+    <img width="400" alt="lyy0709 的 GitHub 统计" src="https://github-stats-extended.vercel.app/api?username=lyy0709&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide=contribs&amp;show=prs_merged&amp;line_height=24&amp;card_width=400&amp;theme=default&amp;border_radius=12&amp;locale=cn" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=lyy0709&amp;layout=compact&amp;card_width=400&amp;langs_count=8&amp;theme=github_dark&amp;border_radius=12&amp;locale=cn" />
+    <img width="400" alt="公开仓库的语言分布" src="https://github-stats-extended.vercel.app/api/top-langs/?username=lyy0709&amp;layout=compact&amp;card_width=400&amp;langs_count=8&amp;theme=default&amp;border_radius=12&amp;locale=cn" />
+  </picture>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=80&section=footer" width="100%" />
+<details>
+<summary>查看公开贡献的连续记录</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lyy0709&amp;theme=github-dark-blue&amp;hide_border=true&amp;border_radius=12&amp;locale=zh_Hans" />
+    <img width="600" alt="lyy0709 的公开贡献连续记录" src="https://streak-stats.demolab.com/?user=lyy0709&amp;theme=default&amp;hide_border=true&amp;border_radius=12&amp;locale=zh_Hans" />
+  </picture>
+</p>
+
+</details>
+
+## 贡献记录
+
+最近一年的贡献轨迹，包含私有贡献汇总，每日更新。
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lyy0709/lyy0709/output/github-snake-dark.svg" />
+    <img width="100%" alt="贪吃蛇依次吃掉 lyy0709 最近一年的贡献格子" src="https://raw.githubusercontent.com/lyy0709/lyy0709/output/github-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lyy0709/lyy0709/actions/workflows/snake.yml"><img alt="贡献动画更新状态" src="https://github.com/lyy0709/lyy0709/actions/workflows/snake.yml/badge.svg" /></a>
+</p>
