@@ -1,6 +1,11 @@
 name: Generate Snake
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/snake.yml
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -9,14 +14,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: lyy0709
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - name: Check contribution token
+        env:
+          SNAKE_GITHUB_TOKEN: ${{ secrets.SNAKE_GITHUB_TOKEN }}
+        run: |
+          if [ -z "$SNAKE_GITHUB_TOKEN" ]; then
+            echo "::error::Set SNAKE_GITHUB_TOKEN to a personal token that can read private contribution totals."
+            exit 1
+          fi
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.SNAKE_GITHUB_TOKEN }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%230969da
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2358a6ff
+
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
