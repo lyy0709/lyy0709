@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 38" width="840" height="38" role="img" aria-label="精选开源项目">
+  <g transform="translate(0, 9)">
+    <rect width="98" height="20" rx="10" fill="rgba(52, 211, 153, 0.13)" stroke="rgba(52, 211, 153, 0.32)" stroke-width="0.9"/>
+    <text x="49" y="13.5" text-anchor="middle" fill="#34d399" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="9.8" font-weight="700" letter-spacing="0.8">FEATURED WORK</text>
+  </g>
+  <text x="112" y="24.5" fill="#f1f5f9" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="15.5" font-weight="700">精选开源项目</text>
+  <line x1="224" y1="19.5" x2="660" y2="19.5" stroke="#243247" stroke-width="1"/>
+  <text x="840" y="23" text-anchor="end" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10" font-weight="600" letter-spacing="0.7">CLICK CARD TO EXPLORE</text>
+</svg>

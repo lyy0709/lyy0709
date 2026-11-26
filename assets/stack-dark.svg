@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 204" width="840" height="204" role="img" aria-label="核心技术栈矩阵">
+  <defs>
+    
+    <linearGradient id="stack-dark-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121926"/>
+      <stop offset="100%" stop-color="#0d131d"/>
+    </linearGradient>
+    <linearGradient id="stack-dark-accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#34d399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  
+  </defs>
+  <rect x="0.75" y="0.75" width="838.5" height="202.5" rx="16" fill="url(#stack-dark-bg)" stroke="#243247" stroke-width="1.2"/>
+  <line x1="24" y1="1.3" x2="816" y2="1.3" stroke="rgba(186, 214, 255, 0.16)" stroke-width="1"/>
+  
+      <g transform="translate(18, 20)">
+        <rect width="258" height="164" rx="12" fill="#151e2c" stroke="#1d283a" stroke-width="1.1"/>
+        <g transform="translate(14, 15)">
+          <rect width="26" height="26" rx="7" fill="rgba(56, 189, 248, 0.13)" stroke="rgba(56, 189, 248, 0.34)" stroke-width="0.9"/>
+          <g transform="translate(5, 5.2)"><path d="M5.5 4L2 7.5 5.5 11M10.5 4L14 7.5 10.5 11M8.8 2.8L7.2 12.2" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+        </g>
+        <text x="49" y="25.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.8" font-weight="700" letter-spacing="0.7">LANGUAGES &amp; UI</text>
+        <text x="49" y="40" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.8">语言与界面</text>
+        <line x1="14" y1="51" x2="244" y2="51" stroke="#1d283a" stroke-width="1"/>
+        
+          <g transform="translate(14, 62)">
+            <rect width="62" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#3572A5"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Python</text>
+          </g>
+          <g transform="translate(82, 62)">
+            <rect width="36" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#00ADD8"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Go</text>
+          </g>
+          <g transform="translate(124, 62)">
+            <rect width="88" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#3178C6"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">TypeScript</text>
+          </g>
+          <g transform="translate(14, 93)">
+            <rect width="88" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#f1e05a"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">JavaScript</text>
+          </g>
+          <g transform="translate(108, 93)">
+            <rect width="56" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#89e051"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Shell</text>
+          </g>
+          <g transform="translate(170, 93)">
+            <rect width="43" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#f34b7d"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">C++</text>
+          </g>
+          <g transform="translate(14, 124)">
+            <rect width="43" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#41b883"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Vue</text>
+          </g>
+      </g>
+      <g transform="translate(291, 20)">
+        <rect width="258" height="164" rx="12" fill="#151e2c" stroke="#1d283a" stroke-width="1.1"/>
+        <g transform="translate(14, 15)">
+          <rect width="26" height="26" rx="7" fill="rgba(52, 211, 153, 0.13)" stroke="rgba(52, 211, 153, 0.32)" stroke-width="0.9"/>
+          <g transform="translate(5, 5.2)"><rect x="2" y="2.5" width="12" height="4.2" rx="1.2" fill="none" stroke="#34d399" stroke-width="1.4"/><rect x="2" y="9" width="12" height="4.2" rx="1.2" fill="none" stroke="#34d399" stroke-width="1.4"/><circle cx="4.6" cy="4.6" r="0.8" fill="#34d399"/><circle cx="4.6" cy="11.1" r="0.8" fill="#34d399"/></g>
+        </g>
+        <text x="49" y="25.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.8" font-weight="700" letter-spacing="0.7">INFRA &amp; DATA</text>
+        <text x="49" y="40" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.8">部署与存储</text>
+        <line x1="14" y1="51" x2="244" y2="51" stroke="#1d283a" stroke-width="1"/>
+        
+          <g transform="translate(14, 62)">
+            <rect width="62" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#2496ED"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Docker</text>
+          </g>
+          <g transform="translate(82, 62)">
+            <rect width="56" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#EAB308"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Linux</text>
+          </g>
+          <g transform="translate(144, 62)">
+            <rect width="56" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#009639"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Nginx</text>
+          </g>
+          <g transform="translate(14, 93)">
+            <rect width="56" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#4479A1"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">MySQL</text>
+          </g>
+          <g transform="translate(76, 93)">
+            <rect width="56" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#DC382D"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Redis</text>
+          </g>
+          <g transform="translate(138, 93)">
+            <rect width="62" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#38bdf8"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">SQLite</text>
+          </g>
+          <g transform="translate(14, 124)">
+            <rect width="108" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#14b8a6"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Reverse Proxy</text>
+          </g>
+      </g>
+      <g transform="translate(564, 20)">
+        <rect width="258" height="164" rx="12" fill="#151e2c" stroke="#1d283a" stroke-width="1.1"/>
+        <g transform="translate(14, 15)">
+          <rect width="26" height="26" rx="7" fill="rgba(251, 191, 36, 0.13)" stroke="rgba(251, 191, 36, 0.32)" stroke-width="0.9"/>
+          <g transform="translate(5, 5.2)"><path d="M8.5 1.8L3.2 8.6h4.4L6.8 14.2l6-7.2H8.4z" fill="none" stroke="#fbbf24" stroke-width="1.4" stroke-linejoin="round"/></g>
+        </g>
+        <text x="49" y="25.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.8" font-weight="700" letter-spacing="0.7">AI &amp; AUTOMATION</text>
+        <text x="49" y="40" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.8">AI 与自动化</text>
+        <line x1="14" y1="51" x2="244" y2="51" stroke="#1d283a" stroke-width="1"/>
+        
+          <g transform="translate(14, 62)">
+            <rect width="43" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#38bdf8"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">MCP</text>
+          </g>
+          <g transform="translate(63, 62)">
+            <rect width="82" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#a78bfa"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Codex CLI</text>
+          </g>
+          <g transform="translate(151, 62)">
+            <rect width="82" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#34d399"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">AI Agents</text>
+          </g>
+          <g transform="translate(14, 93)">
+            <rect width="114" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#2088FF"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">GitHub Actions</text>
+          </g>
+          <g transform="translate(134, 93)">
+            <rect width="69" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#f59e0b"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">CI / CD</text>
+          </g>
+          <g transform="translate(14, 124)">
+            <rect width="95" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#22c55e"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Tree-sitter</text>
+          </g>
+          <g transform="translate(115, 124)">
+            <rect width="88" height="24" rx="7" fill="#172131" stroke="#26354c" stroke-width="1"/>
+            <circle cx="10" cy="12" r="2.9" fill="#64748b"/>
+            <text x="18" y="15.5" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="500">Userscript</text>
+          </g>
+      </g>
+</svg>

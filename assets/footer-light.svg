@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 48" width="840" height="48" role="img" aria-label="Profile Footer">
+  <defs>
+    
+    <linearGradient id="footer-light-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="footer-light-accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#059669" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+  
+  </defs>
+  <line x1="0" y1="1" x2="840" y2="1" stroke="url(#footer-light-accent-line)" stroke-width="1.2"/>
+  <text x="2" y="29" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.2" letter-spacing="0.7">lyy0709 · BEIJING · BUILD ONCE, AUTOMATE FOREVER</text>
+  <circle cx="681" cy="25.5" r="3" fill="#059669"/>
+  <text x="838" y="29" text-anchor="end" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.2" letter-spacing="0.7">ALL SYSTEMS NOMINAL</text>
+</svg>
