@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 248" width="840" height="248" role="img" aria-label="lyy0709 GitHub Profile Hero">
+  <style>
+    @keyframes pulseRing {
+      0% { r: 3.5; opacity: 0.75; }
+      70% { r: 10; opacity: 0; }
+      100% { r: 10; opacity: 0; }
+    }
+    @keyframes scanSweep {
+      0% { transform: translateX(-90px); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.9; }
+      100% { transform: translateX(250px); opacity: 0; }
+    }
+    .ping { animation: pulseRing 2.6s cubic-bezier(0.2, 0.7, 0.3, 1) infinite; }
+    .scan { animation: scanSweep 4.8s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .ping, .scan { animation: none; opacity: 0.4; }
+    }
+  </style>
+  <defs>
+    
+    <linearGradient id="hero-dark-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121926"/>
+      <stop offset="100%" stop-color="#0d131d"/>
+    </linearGradient>
+    <linearGradient id="hero-dark-accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#34d399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  
+    <pattern id="hero-dark-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2b3b54" opacity="0.45"/>
+    </pattern>
+    <linearGradient id="hero-dark-dot-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="42%" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.95"/>
+    </linearGradient>
+    <mask id="hero-dark-dot-mask">
+      <rect width="840" height="248" fill="url(#hero-dark-dot-fade)"/>
+    </mask>
+    <radialGradient id="hero-dark-glow-a" cx="78%" cy="16%" r="48%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-dark-glow-b" cx="92%" cy="88%" r="42%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="hero-dark-clip">
+      <rect x="0.5" y="0.5" width="839" height="247" rx="16"/>
+    </clipPath>
+    <clipPath id="hero-dark-scan-clip">
+      <rect x="544" y="198" width="248" height="3" rx="1.5"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#hero-dark-clip)">
+    <rect width="840" height="248" fill="url(#hero-dark-bg)"/>
+    <rect width="840" height="248" fill="url(#hero-dark-dots)" mask="url(#hero-dark-dot-mask)"/>
+    <rect width="840" height="248" fill="url(#hero-dark-glow-a)"/>
+    <rect width="840" height="248" fill="url(#hero-dark-glow-b)"/>
+    <rect x="0" y="0" width="840" height="2" fill="url(#hero-dark-accent-line)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="838.5" height="246.5" rx="15.5" fill="none" stroke="#243247" stroke-width="1.2"/>
+
+  <!-- Left Identity Column -->
+  <g>
+    <circle cx="42" cy="42" r="3.5" fill="#34d399" class="ping"/>
+    <circle cx="42" cy="42" r="3.5" fill="#34d399"/>
+    <text x="55" y="45.8" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11" font-weight="600" letter-spacing="1">ONLINE · BEIJING · UTC+8 · SINCE 2020</text>
+
+    <text x="36" y="102" fill="#f1f5f9" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="42" font-weight="800" letter-spacing="-1.2">lyy0709</text>
+    <g transform="translate(203, 75)">
+      <rect width="66" height="25" rx="12.5" fill="rgba(56, 189, 248, 0.13)" stroke="rgba(56, 189, 248, 0.34)" stroke-width="1"/>
+      <text x="33" y="16.5" text-anchor="middle" fill="#38bdf8" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">躺平～</text>
+    </g>
+
+    <text x="36" y="142" fill="#f1f5f9" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="17" font-weight="600">把 AI 工具部署好，把重复工作自动化。</text>
+    <text x="36" y="167" fill="#94a3b8" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12.5">AI 基础设施 · 代理与镜像部署 · CLI 性能调优 · 全栈开发</text>
+
+    
+        <g transform="translate(36, 190)">
+          <rect width="89" height="26" rx="13" fill="#172131" stroke="#26354c" stroke-width="1"/>
+          <circle cx="13" cy="13" r="3.2" fill="#38bdf8"/>
+          <text x="23" y="16.8" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.2" font-weight="500">AI Infra</text>
+        </g>
+        <g transform="translate(134, 190)">
+          <rect width="103" height="26" rx="13" fill="#172131" stroke="#26354c" stroke-width="1"/>
+          <circle cx="13" cy="13" r="3.2" fill="#34d399"/>
+          <text x="23" y="16.8" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.2" font-weight="500">Automation</text>
+        </g>
+        <g transform="translate(246, 190)">
+          <rect width="89" height="26" rx="13" fill="#172131" stroke="#26354c" stroke-width="1"/>
+          <circle cx="13" cy="13" r="3.2" fill="#fbbf24"/>
+          <text x="23" y="16.8" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.2" font-weight="500">CLI Perf</text>
+        </g>
+        <g transform="translate(344, 190)">
+          <rect width="103" height="26" rx="13" fill="#172131" stroke="#26354c" stroke-width="1"/>
+          <circle cx="13" cy="13" r="3.2" fill="#a78bfa"/>
+          <text x="23" y="16.8" fill="#f1f5f9" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.2" font-weight="500">Full-Stack</text>
+        </g>
+  </g>
+
+  <!-- Right Live Telemetry Panel -->
+  <g>
+    <rect x="524" y="26" width="286" height="196" rx="13" fill="#151e2c" stroke="#243247" stroke-width="1.1"/>
+    <line x1="538" y1="26.6" x2="796" y2="26.6" stroke="rgba(186, 214, 255, 0.16)" stroke-width="1"/>
+
+    <text x="544" y="50" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.2" font-weight="600" letter-spacing="1.1">SYSTEM TELEMETRY</text>
+    <g transform="translate(744, 37)">
+      <rect width="48" height="18" rx="9" fill="rgba(52, 211, 153, 0.13)" stroke="rgba(52, 211, 153, 0.32)" stroke-width="0.9"/>
+      <circle cx="11" cy="9" r="2.5" fill="#34d399"/>
+      <text x="19" y="12.5" fill="#34d399" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="9.5" font-weight="700">LIVE</text>
+    </g>
+
+    <line x1="544" y1="64" x2="792" y2="64" stroke="#1d283a" stroke-width="1"/>
+    <line x1="664" y1="76" x2="664" y2="184" stroke="#1d283a" stroke-width="1"/>
+    <line x1="544" y1="130" x2="792" y2="130" stroke="#1d283a" stroke-width="1"/>
+
+    
+      <text x="544" y="98" fill="#38bdf8" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="22" font-weight="700" letter-spacing="-0.4">2,825</text>
+      <text x="544" y="116" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="11">年度贡献 (含私有)</text>
+      <text x="678" y="98" fill="#fbbf24" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="22" font-weight="700" letter-spacing="-0.4">342</text>
+      <text x="678" y="116" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="11">原创星标 Stars</text>
+      <text x="544" y="160" fill="#34d399" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="22" font-weight="700" letter-spacing="-0.4">32天</text>
+      <text x="544" y="178" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="11">最长连更 Streak</text>
+      <text x="678" y="160" fill="#a78bfa" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="22" font-weight="700" letter-spacing="-0.4">55</text>
+      <text x="678" y="178" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="11">关注者 Followers</text>
+
+    <rect x="544" y="198" width="248" height="3" rx="1.5" fill="#1a2436"/>
+    <g clip-path="url(#hero-dark-scan-clip)">
+      <rect x="544" y="198" width="84" height="3" rx="1.5" fill="url(#hero-dark-accent-line)" class="scan"/>
+    </g>
+    <text x="544" y="213" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="9.2">SYNCED 2026-11-28</text>
+    <text x="792" y="213" text-anchor="end" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="9.2">25 ORIGINAL REPOS</text>
+  </g>
+</svg>

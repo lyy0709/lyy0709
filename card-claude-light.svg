@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 156" width="412" height="156" role="img" aria-label="ddclaude-share-server-deploy">
+  <defs>
+    
+    <linearGradient id="card-claude-light-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="card-claude-light-accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#059669" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+  
+    <radialGradient id="card-claude-light-glow" cx="8%" cy="10%" r="55%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card-claude-light-clip">
+      <rect x="0.75" y="0.75" width="410.5" height="154.5" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-claude-light-clip)">
+    <rect width="412" height="156" fill="url(#card-claude-light-bg)"/>
+    <rect width="412" height="156" fill="url(#card-claude-light-glow)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="410.5" height="154.5" rx="14" fill="none" stroke="#d8e1ec" stroke-width="1.2"/>
+  <line x1="20" y1="1.3" x2="392" y2="1.3" stroke="rgba(255, 255, 255, 0.9)" stroke-width="1"/>
+
+  <!-- Top Row: Category + Stars/Forks -->
+  <g transform="translate(22, 16)">
+    <rect width="94" height="19" rx="9.5" fill="rgba(217, 119, 6, 0.09)" stroke="rgba(217, 119, 6, 0.28)" stroke-width="0.9"/>
+    <text x="47" y="12.8" text-anchor="middle" fill="#d97706" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="9.5" font-weight="700" letter-spacing="0.6">CLAUDE MIRROR</text>
+  </g>
+  
+      <g transform="translate(322, 17)">
+        <path d="M6.5 1.2l1.62 3.28 3.62.53-2.62 2.55.62 3.6L6.5 9.46l-3.24 1.7.62-3.6L1.26 5.01l3.62-.53z" fill="#d97706"/>
+        <text x="15.5" y="10.5" fill="#0f172a" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.5" font-weight="700">11</text>
+      </g>
+      <g transform="translate(367, 17)">
+        <path d="M4.2 1.8a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zm0 2.4a.7.7 0 1 1 0-1.4.7.7 0 0 1 0 1.4zm5.6-2.4a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zm0 2.4a.7.7 0 1 1 0-1.4.7.7 0 0 1 0 1.4zM7 8.4a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zm0 2.4a.7.7 0 1 1 0-1.4.7.7 0 0 1 0 1.4zM4.7 5.1v.9c0 .9.7 1.6 1.6 1.6h1.4c.9 0 1.6-.7 1.6-1.6v-.9h1v.9a2.6 2.6 0 0 1-2.6 2.6H7.5v.3h-1v-.3h-.2a2.6 2.6 0 0 1-2.6-2.6v-.9h1z" fill="#64748b"/>
+        <text x="14.5" y="10.5" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11.5" font-weight="600">3</text>
+      </g>
+
+  <!-- Repo Title -->
+  <rect x="22" y="47" width="3.2" height="19" rx="1.6" fill="#f1e05a"/>
+  <text x="33" y="61.5" fill="#0f172a" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="15.5" font-weight="700" letter-spacing="-0.3">ddclaude-share-server-deploy</text>
+  <g transform="translate(378, 49)" opacity="0.7">
+    <path d="M2 10L10 2M10 2H4.2M10 2V7.8" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Description -->
+  <text x="22" y="88" fill="#475569" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12.2">Claude 镜像部署方案，支持对话本地持久化保存、</text>
+  <text x="22" y="107" fill="#475569" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12.2">凭据加密存储与 MCP / Skills 独立路由代理。</text>
+
+  <!-- Footer -->
+  <line x1="22" y1="122" x2="390" y2="122" stroke="#e6edf5" stroke-width="1"/>
+  <circle cx="27" cy="138" r="4" fill="#f1e05a"/>
+  <text x="37" y="141.8" fill="#0f172a" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11" font-weight="600">JavaScript</text>
+  <text x="113" y="141.8" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">· MySQL</text>
+  <text x="390" y="141.8" text-anchor="end" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.2">ACTIVE 2026-10</text>
+</svg>

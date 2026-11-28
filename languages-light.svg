@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 236" width="412" height="236" role="img" aria-label="公开仓库语言分布">
+  <defs>
+    
+    <linearGradient id="lang-light-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="lang-light-accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#059669" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+  
+    <clipPath id="lang-light-bar-clip">
+      <rect x="22" y="48" width="368" height="11" rx="5.5"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="410.5" height="234.5" rx="14" fill="url(#lang-light-bg)" stroke="#d8e1ec" stroke-width="1.2"/>
+  <line x1="20" y1="1.3" x2="392" y2="1.3" stroke="rgba(255, 255, 255, 0.9)" stroke-width="1"/>
+
+  <!-- Header -->
+  <circle cx="24" cy="26" r="3.5" fill="#059669"/>
+  <text x="35" y="29.5" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10.5" font-weight="600" letter-spacing="0.9">LANGUAGE DNA</text>
+  <text x="390" y="29.5" text-anchor="end" fill="#64748b" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="10">PUBLIC ORIGINAL</text>
+
+  <!-- Proportion Bar -->
+  <rect x="22" y="48" width="368" height="11" rx="5.5" fill="#e2e8f0"/>
+  <g clip-path="url(#lang-light-bar-clip)">
+    <rect x="22" y="48" width="109.6" height="11" fill="#3572A5"/><rect x="133.8" y="48" width="105.7" height="11" fill="#00ADD8"/><rect x="241.7" y="48" width="92.2" height="11" fill="#41b883"/><rect x="336.1" y="48" width="23.4" height="11" fill="#f1e05a"/><rect x="361.7" y="48" width="10.6" height="11" fill="#e34c26"/><rect x="374.5" y="48" width="5.7" height="11" fill="#663399"/><rect x="382.4" y="48" width="7.6" height="11" fill="#64748b"/>
+  </g>
+
+  <!-- 2x3 Language Matrix -->
+  
+        <g transform="translate(22, 78)">
+          <circle cx="5" cy="6" r="4" fill="#3572A5"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">Python</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">30.9%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#3572A5" opacity="0.88"/>
+        </g>
+        <g transform="translate(216, 78)">
+          <circle cx="5" cy="6" r="4" fill="#00ADD8"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">Go</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">29.8%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="167.8" height="3.2" rx="1.6" fill="#00ADD8" opacity="0.88"/>
+        </g>
+        <g transform="translate(22, 109)">
+          <circle cx="5" cy="6" r="4" fill="#41b883"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">Vue</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">26.0%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="146.4" height="3.2" rx="1.6" fill="#41b883" opacity="0.88"/>
+        </g>
+        <g transform="translate(216, 109)">
+          <circle cx="5" cy="6" r="4" fill="#f1e05a"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">JavaScript</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">6.6%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="37.2" height="3.2" rx="1.6" fill="#f1e05a" opacity="0.88"/>
+        </g>
+        <g transform="translate(22, 140)">
+          <circle cx="5" cy="6" r="4" fill="#e34c26"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">HTML</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">3.0%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="16.9" height="3.2" rx="1.6" fill="#e34c26" opacity="0.88"/>
+        </g>
+        <g transform="translate(216, 140)">
+          <circle cx="5" cy="6" r="4" fill="#663399"/>
+          <text x="15" y="9.8" fill="#0f172a" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="12" font-weight="600">CSS</text>
+          <text x="174" y="9.8" text-anchor="end" fill="#475569" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="11">1.6%</text>
+          <rect x="0" y="16" width="174" height="3.2" rx="1.6" fill="#e2e8f0"/>
+          <rect x="0" y="16" width="9" height="3.2" rx="1.6" fill="#663399" opacity="0.88"/>
+        </g>
+
+  <!-- Bottom Footprint -->
+  <line x1="22" y1="173" x2="390" y2="173" stroke="#e6edf5" stroke-width="1"/>
+  <line x1="142" y1="183" x2="142" y2="218" stroke="#e6edf5" stroke-width="1"/>
+  <line x1="270" y1="183" x2="270" y2="218" stroke="#e6edf5" stroke-width="1"/>
+
+  <text x="24" y="199" fill="#d97706" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="16" font-weight="700">342★</text>
+  <text x="24" y="216" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.5">原创总星标</text>
+
+  <text x="158" y="199" fill="#0f172a" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="16" font-weight="700">66</text>
+  <text x="158" y="216" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.5">原创总 Fork</text>
+
+  <text x="286" y="199" fill="#0f172a" font-family='"SFMono-Regular", ui-monospace, "JetBrains Mono", Menlo, Monaco, Consolas, monospace' font-size="16" font-weight="700">25 / 83</text>
+  <text x="286" y="216" fill="#64748b" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' font-size="10.5">原创 / 公开仓库</text>
+</svg>
